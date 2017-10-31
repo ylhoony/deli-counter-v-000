@@ -1,9 +1,9 @@
 # Write your code here.
 # katz_deli = []
 def line(katz_deli)
-  if katz_deli.length == 0
+  if katz_deli.empty?
     puts "The line is currently empty."
-  elsif katz_deli.length > 0
+  else
     result = Array.new
     result << "The line is currently:"
     katz_deli.each.with_index do |e, i|
